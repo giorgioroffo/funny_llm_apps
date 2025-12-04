@@ -8,9 +8,8 @@
 
 ## 📸 Applications Preview
 
-<div align="center">
-
 ### 🧠 AI Consensus Engine
+
 ![AI Consensus Engine Interface](examples/main_consensus.png)
 
 *A hierarchical multi-agent problem-solving system with Chief Architect orchestrating Logic Strategist and Pragmatic Critic*
@@ -18,11 +17,10 @@
 ---
 
 ### 🤖 AI Alterego Debate Simulator
+
 ![AI Alterego Debate Simulator Interface](examples/main_conversational.png)
 
 *A customizable debate simulator where two AI agents with distinct personalities engage in structured conversations*
-
-</div>
 
 ---
 
