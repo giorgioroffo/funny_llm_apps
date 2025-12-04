@@ -21,7 +21,14 @@ nohup.out
 *.pptx
 *.ppt
 *.txt
+!requirements.txt
 *.csv
 *.json
 # Allow demo videos in examples folder
 !examples/*.mp4
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
