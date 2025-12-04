@@ -24,8 +24,9 @@ nohup.out
 !requirements.txt
 *.csv
 *.json
-# Allow demo videos in examples folder
+# Allow demo videos and screenshots in examples folder
 !examples/*.mp4
+!examples/*.png
 # Python cache
 __pycache__/
 *.pyc
