@@ -117,10 +117,21 @@ The application will launch a Gradio interface (typically at `http://127.0.0.1:7
 #### 🎓 Example Problem
 
 ```
-An airline overbooks flights: 105 seats, 100 tickets sold. 
-Each passenger has a 95% probability of showing up. 
-If more than 100 passengers show up, the airline pays €500 per bumped passenger. 
-What is the expected cost of penalties?
+You need to train a deep learning model for medical image classification 
+with the following constraints:
+- Dataset: 10,000 images (8,000 training, 2,000 validation)
+- Classes: 5 disease categories with severe class imbalance (70%, 15%, 10%, 3%, 2%)
+- Hardware: Limited to 16GB GPU memory, training time budget of 4 hours
+- Requirements: Must achieve >90% accuracy on minority classes (3% and 2%) 
+  while maintaining >95% overall accuracy
+
+Design a complete training strategy including:
+1. Data augmentation and sampling techniques
+2. Model architecture selection and modifications
+3. Loss function design
+4. Training procedure (optimizer, learning rate schedule, batch size)
+5. Evaluation metrics and validation approach
+6. Risk mitigation for overfitting and class imbalance
 ```
 
 ---
