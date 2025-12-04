@@ -89,14 +89,9 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 #### 🎬 Demo Video
 
-<video width="800" controls>
-  <source src="examples/AIReasoning_groffo_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+📹 **[Watch Demo Video](examples/AIReasoning_groffo_demo.mp4)** *(Click to download/view)*
 
-*Download: [examples/AIReasoning_groffo_demo.mp4](examples/AIReasoning_groffo_demo.mp4)*
-
-> 📹 The demo video showcases the complete workflow: problem input → 3 automatic iterations → final evaluation with scores
+> The demo video showcases the complete workflow: problem input → 3 automatic iterations → final evaluation with scores
 
 #### 🏗️ Architecture
 
@@ -180,14 +175,9 @@ Configure the profiles of two AI agents and watch them debate on any topic!
 
 #### 🎬 Demo Video
 
-<video width="800" controls>
-  <source src="examples/AIConversation_groffo_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+📹 **[Watch Demo Video](examples/AIConversation_groffo_demo.mp4)** *(Click to download/view)*
 
-*Download: [examples/AIConversation_groffo_demo.mp4](examples/AIConversation_groffo_demo.mp4)*
-
-> 📹 The demo video showcases agent profile configuration, conversation initiation, and dynamic exchanges between adversarial and polite agents.
+> The demo video showcases agent profile configuration, conversation initiation, and dynamic exchanges between adversarial and polite agents.
 
 #### 🎭 Features
 
