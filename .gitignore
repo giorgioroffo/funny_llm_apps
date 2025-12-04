@@ -1,0 +1,27 @@
+llm_engineering/
+.env
+.venv
+.idea
+.vscode
+.pytest_cache
+.ruff_cache
+.DS_Store
+.env.save
+.virtual_documents/
+WingIDE_Projekti/
+nohup.out
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.docx
+*.doc
+*.xls
+*.xlsx
+*.pptx
+*.ppt
+*.txt
+*.csv
+*.json
+# Allow demo videos in examples folder
+!examples/*.mp4
