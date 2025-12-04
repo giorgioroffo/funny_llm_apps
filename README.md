@@ -232,15 +232,13 @@ AIEngineer/
 
 ---
 
-## 📄 License
-
-This code is part of educational materials. Please respect intellectual property and use responsibly.
-
----
-
-## 🤝 Contributing
+## 🤝 License and Contributing
 
 This is an educational project. For questions or suggestions, please open an issue or contact the author.
+
+```
+Reference: Roffo, G., 2024. Exploring advanced large language models with llmsuite.  arXiv preprint arXiv:2407.12036.
+```
 
 ---
 
