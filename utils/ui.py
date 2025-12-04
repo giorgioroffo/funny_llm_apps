@@ -21,16 +21,31 @@ def create_ui():
         
         # Header
         gr.Markdown("""
-        # 🧠 AI Reasoning Engine 🧠
-        #### *Dr Giorgio Roffo*
-        
-        ### ⚡ Advanced Multi-Model Problem Solving Simulator ⚡
-        
-        **A hierarchical collaboration system** with 1 👑 Chief Architect orchestrating 2 Expert Agents:
-        - 📐 **Logic Strategist** (strategic thinking & algorithms)
-        - ⚔️ **Pragmatic Critic** (skeptical validation & edge cases)
-        
-        🚀 **3 automatic iterations** → Chief asks questions → Experts respond → Chief evaluates & scores!
+        <div style='text-align: center; padding: 30px 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);'>
+            <h1 style='color: #ffffff; font-size: 3.5em; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-weight: 700; letter-spacing: 2px;'>
+                🧠 AI Consensus Engine 🧠
+            </h1>
+            <p style='color: #f0f0f0; font-size: 1.2em; margin: 15px 0 10px 0; font-weight: 300; letter-spacing: 1px;'>
+                Advanced Multi-Agent Problem Solving System
+            </p>
+            <div style='background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); padding: 20px; border-radius: 10px; margin: 20px auto; max-width: 800px;'>
+                <p style='color: #ffffff; font-size: 1.05em; margin: 0; line-height: 1.6;'>
+                    A hierarchical collaboration system where <strong style='color: #ffd700;'>👑 Chief Architect</strong> orchestrates 
+                    <strong style='color: #60a5fa;'>📐 Logic Strategist</strong> and 
+                    <strong style='color: #fb923c;'>⚔️ Pragmatic Critic</strong> to solve complex problems through 
+                    <strong style='color: #34d399;'>3 automatic iterations</strong> of strategic thinking, validation, and evaluation.
+                </p>
+            </div>
+            <div style='margin-top: 20px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.2);'>
+                <p style='color: #e0e0e0; font-size: 0.95em; margin: 5px 0; font-style: italic;'>
+                    Dr Giorgio Roffo • 2025-2026
+                </p>
+                <p style='color: #d0d0d0; font-size: 0.85em; margin: 5px 0;'>
+                    Reference: Roffo, G., 2024. Exploring advanced large language models with llmsuite. 
+                    arXiv preprint arXiv:2407.12036.
+                </p>
+            </div>
+        </div>
         """)
         
         # Disclaimer

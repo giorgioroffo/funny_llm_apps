@@ -22,19 +22,39 @@ def create_ui():
         
         # Header
         gr.Markdown("""
-        # 🤖 AI ALTEREGO - Debate Simulator 🤖
-        #### *Dr Giorgio Roffo*
-        
-        ### Conversational simulation between two AI agents with customizable personalities, interests, and backgrounds
-        
-        Configure the profiles of two AI agents and watch them debate on any topic!
+        <div style='text-align: center; padding: 30px 20px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; margin-bottom: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);'>
+            <h1 style='color: #ffffff; font-size: 3.5em; margin: 0; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); font-weight: 700; letter-spacing: 2px;'>
+                🤖 AI ALTEREGO - Debate Simulator 🤖
+            </h1>
+            <p style='color: #f0f0f0; font-size: 1.2em; margin: 15px 0 10px 0; font-weight: 300; letter-spacing: 1px;'>
+                Conversational Simulation Between Two AI Agents
+            </p>
+            <div style='background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); padding: 20px; border-radius: 10px; margin: 20px auto; max-width: 800px;'>
+                <p style='color: #ffffff; font-size: 1.05em; margin: 0; line-height: 1.6;'>
+                    Configure the profiles of two AI agents with <strong style='color: #ffd700;'>customizable personalities</strong>, 
+                    <strong style='color: #60a5fa;'>interests</strong>, and <strong style='color: #34d399;'>backgrounds</strong>, 
+                    and watch them debate on any topic!
+                </p>
+            </div>
+            <div style='margin-top: 20px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.2);'>
+                <p style='color: #e0e0e0; font-size: 0.95em; margin: 5px 0; font-style: italic;'>
+                    Dr Giorgio Roffo • 2025-2026
+                </p>
+                <p style='color: #d0d0d0; font-size: 0.85em; margin: 5px 0;'>
+                    Reference: Roffo, G., 2024. Exploring advanced large language models with llmsuite. 
+                    arXiv preprint arXiv:2407.12036.
+                </p>
+            </div>
+        </div>
         """)
         
         # Disclaimer
         gr.Markdown("""
-        **⚠️ DISCLAIMER:** This content is AI-generated for demo/satire/research purposes. 
-        These are NOT real statements nor quotes from real people. 
-        The "personas" are simulated alter egos. All messages are prefixed with "(AI SIMULATION)" to indicate they are AI-generated simulations.
+        <div style='background-color: #ffe4cc; color: #7c2d12; padding: 15px; border-radius: 5px; border-left: 4px solid #ea580c; margin-bottom: 20px;'>
+        <strong style='color: #7c2d12;'>⚠️ DISCLAIMER:</strong> This content is AI-generated for demo/satire/research purposes. 
+        These are <strong>NOT</strong> real statements nor quotes from real people. 
+        The "personas" are simulated alter egos. All messages are prefixed with <strong>"(AI SIMULATION)"</strong> to indicate they are AI-generated simulations.
+        </div>
         """)
         
         # Main Topic

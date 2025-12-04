@@ -6,6 +6,26 @@
 
 ---
 
+## 📸 Applications Preview
+
+<div align="center">
+
+### 🧠 AI Consensus Engine
+![AI Consensus Engine Interface](examples/main_consensus.png)
+
+*A hierarchical multi-agent problem-solving system with Chief Architect orchestrating Logic Strategist and Pragmatic Critic*
+
+---
+
+### 🤖 AI Alterego Debate Simulator
+![AI Alterego Debate Simulator Interface](examples/main_conversational.png)
+
+*A customizable debate simulator where two AI agents with distinct personalities engage in structured conversations*
+
+</div>
+
+---
+
 ## 🚀 Overview
 
 This repository contains two powerful AI applications demonstrating advanced multi-agent reasoning and conversational AI:
@@ -134,11 +154,31 @@ Design a complete training strategy including:
 6. Risk mitigation for overfitting and class imbalance
 ```
 
+#### 💭 Example: Multi-Agent Reasoning Process
+
+![Multi-Agent Reasoning Example](examples/example_reasoning_3_agents.png)
+
+*Example showing how the three agents collaborate: The Chief Architect asks targeted questions, the Logic Strategist provides strategic analysis and diagnostics, and the Pragmatic Critic validates and challenges the proposals. This demonstrates the iterative refinement process across 3 automatic iterations.*
+
+#### 🏆 Example: Final Evaluation & Scoring
+
+![Final Evaluation Example](examples/example_final_score_and_solution.png)
+
+*Example of the Chief Architect's final evaluation: The Chief synthesizes the best solution from both agents, assigns scores (0-100%) to each agent with detailed reasoning, and provides rankings. This shows how the system identifies the strongest approach and evaluates each agent's contribution.*
+
 ---
 
 ### 2. AI Alterego Debate Simulator
 
-**A customizable debate simulator** where two AI agents with distinct personalities engage in structured conversations on any topic.
+**🤖 AI ALTEREGO - Debate Simulator 🤖**
+
+*Dr Giorgio Roffo*
+
+**Conversational simulation between two AI agents** with customizable personalities, interests, and backgrounds.
+
+Configure the profiles of two AI agents and watch them debate on any topic!
+
+**⚠️ DISCLAIMER:** This content is AI-generated for demo/satire/research purposes. These are NOT real statements nor quotes from real people. The "personas" are simulated alter egos. All messages are prefixed with "(AI SIMULATION)" to indicate they are AI-generated simulations.
 
 #### 🎬 Demo Video
 
@@ -186,6 +226,12 @@ The application will launch a Gradio interface (typically at `http://127.0.0.1:7
 
 **Topic:** "What policies should governments prioritize in 2025?"
 
+#### 💬 Example Debate Exchange
+
+![Debate Example](examples/conversational_example_debate.png)
+
+*Example of a debate exchange between Alice and Bob showing their distinct personalities and argumentative styles. Notice how Alice (left) uses a more adversarial tone while Bob (right) maintains a polite, explanatory approach.*
+
 ---
 
 ## 🛠️ Technical Details
@@ -217,6 +263,11 @@ AIEngineer/
 ├── .env                      # Environment variables (create this)
 ├── .gitignore               # Git ignore rules
 ├── examples/
+│   ├── main_consensus.png                # Consensus Engine interface screenshot
+│   ├── main_conversational.png          # Debate Simulator interface screenshot
+│   ├── example_reasoning_3_agents.png   # Example of multi-agent reasoning process
+│   ├── example_final_score_and_solution.png # Example of final evaluation and scoring
+│   ├── conversational_example_debate.png # Example debate exchange screenshot
 │   ├── AIReasoning_groffo_demo.mp4      # Consensus Engine demo video
 │   └── AIConversation_groffo_demo.mp4   # Debate Simulator demo video
 └── README.md                # This file
